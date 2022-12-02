@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: #6404ae;
+  background: linear-gradient(to right, #8408c7, #f404cc);
+}
+
+.menu-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.lv-logo {
+  width: 7%;
+  height: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.menu-foto {
+  font-family: "Sarala", sans-serif;
+  font-size: 25px;
+  color: whitesmoke;
+  transition: 0.7s;
+}
+.menu-foto:hover {
+  background-color: #7808b5;
+  padding: 14px 14px;
+  border-radius: 5px;
+  color: #f404cc;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.conteudo {
+  border-top: 0.7px solid #7d07cb77;
+  margin-bottom: 45px;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: justify;
+}
+.conteudo-principal-titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: whitesmoke;
+  text-shadow: 2px, 2px, 0px, black;
+}
+.foto-capa {
+  width: 25%;
+  border-radius: 10%;
+  padding: 17px;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Sarala", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: whitesmoke;
+}
+.conteudo-final {
+  border-top: 0.7px solid #7d07cb77;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  margin-bottom: 17px;
+}
+.bloco-foto {
+  flex: 1 0 400px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.conteudo-fotos {
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 765px) {
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .conteudo-principal {
+    margin-top: 27px;
+  }
+  .conteudo-principal-titulo {
+    font-size: 20px;
+  }
+  .conteudo-principal-escrito {
+    font-size: 15px;
+  }
+  .foto-capa {
+    width: 27%;
+    height: auto;
+  }
+  .menu-top .conteudo-final {
+    max-width: 7px;
+  }
+  .menu-foto {
+    font-size: 17px;
+  }
+  .lv-logo {
+    max-width: 7%;
+  }
+  .conteudo-final {
+    font-size: 15px;
+  }
+}
+@media (max-width: 585px) {
+  .foto-capa {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .conteudo-principal-titulo {
+    font-size: 17px;
+  }
+  .conteudo-principal-escrito {
+    font-size: 13px;
+  }
+}
