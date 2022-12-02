@@ -105,6 +105,7 @@ body {
   }
   .conteudo-principal {
     margin-top: 27px;
+    text-align: center;
   }
   .conteudo-principal-titulo {
     font-size: 20px;
@@ -127,18 +128,26 @@ body {
   }
   .conteudo-final {
     font-size: 15px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 585px) {
+  .conteudo-principal {
+    text-align: center;
+  }
   .foto-capa {
     display: none;
   }
 }
 @media (max-width: 530px) {
   .conteudo-principal-titulo {
-    font-size: 17px;
+    font-size: 18px;
   }
   .conteudo-principal-escrito {
-    font-size: 13px;
+    font-size: 15px;
+    padding: 60px 20px;
+  }
+  .bloco-foto {
+    display: block;
   }
 }
