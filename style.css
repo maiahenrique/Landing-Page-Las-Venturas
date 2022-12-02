@@ -134,9 +134,13 @@ body {
 @media (max-width: 585px) {
   .conteudo-principal {
     text-align: center;
+    padding: 60px 20px;
   }
   .foto-capa {
     display: none;
+  }
+  .bloco-foto {
+    display: block;
   }
 }
 @media (max-width: 530px) {
@@ -145,9 +149,5 @@ body {
   }
   .conteudo-principal-escrito {
     font-size: 15px;
-    padding: 60px 20px;
-  }
-  .bloco-foto {
-    display: block;
   }
 }
