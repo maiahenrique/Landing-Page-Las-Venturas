@@ -21,8 +21,8 @@ body {
   padding: 10px 20px;
 }
 .lv-logo {
-  width: 7%;
-  height: 5%;
+  width: 4rem;
+  height: auto;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -59,9 +59,9 @@ body {
   text-shadow: 2px, 2px, 0px, black;
 }
 .foto-capa {
-  width: 25%;
+  width: 14rem;
   border-radius: 10%;
-  padding: 17px;
+  margin: 40px;
 }
 .conteudo-principal-escrito {
   display: flex;
@@ -75,14 +75,13 @@ body {
 }
 .conteudo-final {
   border-top: 0.7px solid #7d07cb77;
-  padding-top: 12px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
-  margin-bottom: 17px;
 }
 .bloco-foto {
   flex: 1 0 400px;
@@ -97,41 +96,59 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 785px) {
   .conteudo {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
   .conteudo-principal {
-    margin-top: 27px;
+    margin: 30px;
+    padding: 20px;
     text-align: center;
+    align-items: center;
   }
   .conteudo-principal-titulo {
-    font-size: 20px;
+    font-size: 25px;
   }
   .conteudo-principal-escrito {
-    font-size: 15px;
+    font-size: 20px;
+    padding: 40px 15px;
   }
   .foto-capa {
-    width: 27%;
+    width: 14rem;
     height: auto;
   }
-  .menu-top .conteudo-final {
-    max-width: 7px;
-  }
-  .menu-foto {
-    font-size: 17px;
+  .menu-top {
+    padding: 30px 10px;
   }
   .lv-logo {
-    max-width: 7%;
+    width: 5rem;
+  }
+  .menu-foto {
+    font-size: 22px;
+    margin: 45px;
   }
   .conteudo-final {
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 17px;
+    padding: 20px;
   }
 }
 @media (max-width: 585px) {
+  .menu-top {
+    padding: 20px 10px;
+  }
+  .lv-logo {
+    width: 4rem;
+  }
+  .menu-foto {
+    font-size: 22px;
+  }
+  .conteudo-principal-titulo {
+    font-size: 20px;
+    padding: 40px 10px;
+  }
+
   .conteudo-principal-escrito {
     font-size: 15px;
     padding: 60px 20px;
@@ -142,6 +159,10 @@ body {
   }
   .bloco-foto {
     display: block;
+  }
+  .conteudo-final {
+    font-size: 15px;
+    padding: 10px;
   }
 }
 @media (max-width: 530px) {
