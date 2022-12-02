@@ -132,9 +132,10 @@ body {
   }
 }
 @media (max-width: 585px) {
-  .conteudo-principal {
-    text-align: center;
+  .conteudo-principal-escrito {
+    font-size: 15px;
     padding: 60px 20px;
+    text-align: center;
   }
   .foto-capa {
     display: none;
